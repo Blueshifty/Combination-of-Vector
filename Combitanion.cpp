@@ -1,6 +1,6 @@
 #include <iostream>
-#include <vector>
-#include <conio.h>				//Blueshifty GitHub
+#include <vector>			//Blueshift GitHub
+
 
 using namespace std;
 
