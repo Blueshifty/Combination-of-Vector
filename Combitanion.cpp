@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>			//Blueshift GitHub
 
-
 using namespace std;
 
 vector<vector<int> > kombinasyonlar;	//All Combinations Are Saved In This Vector	
