@@ -17,7 +17,7 @@ void print(){
 					
 void exhaustiveFonk(vector<int> x,int iterator,vector<int> eleman){
 	if(iterator==x.size()){kombinasyonlar.push_back(eleman);return;}
-	vector<int>eleman2 = eleman;				//Combination Recursive Fonk
+	vector<int>eleman2 = eleman;				//Combination Recursive Func
 	eleman2.push_back(x.at(iterator));			
 	exhaustiveFonk(x,iterator+1,eleman2);
 	exhaustiveFonk(x,iterator+1,eleman);
